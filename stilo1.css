@@ -1,0 +1,18 @@
+.container {
+    display: grid;
+    /*acá significa que quiero crear 6 columnas, muy importante
+    colocar coma luego de cant de columnas
+     conviene en fr porque me hace ocupar todo el espacio*/
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1em;
+}
+
+
+.container div {
+    background-color: papayawhip;
+    padding: 1em;
+    
+}
+.container div:hover {
+    border: 1px solid grey;
+}
